@@ -1,5 +1,5 @@
 {
-    "name": "andreja/laravel-middleware-correlation-id",
+    "name": "ajaaleixo/laravel-middleware-correlation-id",
     "description": "Laravel Package to use a Correlation ID Middleware",
     "keywords": [
         "laravel",
