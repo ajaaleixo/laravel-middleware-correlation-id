@@ -36,7 +36,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ajaaleixo\\Middleware\\CorrelationId\\ServiceProvider"
+                "Ajaaleixo\\Middleware\\CorrelationId\\CorrelationIdServiceProvider"
             ]
         }
     }
