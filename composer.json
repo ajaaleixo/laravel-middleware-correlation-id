@@ -1,0 +1,43 @@
+{
+    "name": "andreja/laravel-middleware-correlation-id",
+    "description": "Laravel Package to use a Correlation ID Middleware",
+    "keywords": [
+        "laravel",
+        "correlation-id",
+        "middleware",
+        "tracing"
+    ],
+    "homepage": "https://github.com/ajaaleixo/laravel-middleware-correlation-id",
+    "require": {
+        "php" : ">=7.0",
+        "webpatser/laravel-uuid": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0",
+        "orchestra/testbench": "^3.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "André Aleixo",
+            "email": "ajaaleixo@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ajaaleixo\\Middleware\\CorrelationId\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ajaaleixo\\Middleware\\CorrelationId\\Test\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ajaaleixo\\Middleware\\CorrelationId\\ServiceProvider"
+            ]
+        }
+    }
+}
