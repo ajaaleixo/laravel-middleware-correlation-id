@@ -11,7 +11,7 @@ class MiddlewareTest extends TestCase
 {
     protected $correlationIdMiddleware;
 
-    public function setUp()
+    public function setUp() : void
     {
         parent::setUp();
 
@@ -92,7 +92,8 @@ class MiddlewareTest extends TestCase
 
     protected function getLastLogLine()
     {
-        $content = file_get_contents($this->app['config']['logging']['channels']['single']['path']);
+	$logFileDate = date('Y-m-d', time()).'.log';
+        $content = file_get_contents(str_replace('laravel.log', 'laravel-'.$logFileDate, $this->app['config']['logging']['channels']['single']['path']));
         $arrayContent = explode("\n", $content);
 
         return $arrayContent[count($arrayContent)-2];
