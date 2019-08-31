@@ -1,4 +1,5 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6b7c8831c69249588f5bb33add5313ce)](https://www.codacy.com/app/ajaaleixo/laravel-middleware-correlation-id?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ajaaleixo/laravel-middleware-correlation-id&amp;utm_campaign=Badge_Grade)
+[![CircleCI](https://circleci.com/gh/ajaaleixo/laravel-middleware-correlation-id/tree/master.svg?style=svg)](https://circleci.com/gh/ajaaleixo/laravel-middleware-correlation-id/tree/master)
 
 # Laravel Correlation ID Middleware
 Supports L5.5+
