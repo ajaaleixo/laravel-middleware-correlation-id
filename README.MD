@@ -3,7 +3,7 @@
 [![Downloads](https://img.shields.io/packagist/dt/ajaaleixo/laravel-middleware-correlation-id)](https://packagist.org/packages/ajaaleixo/laravel-middleware-correlation-id)
 
 # Laravel Correlation ID Middleware
-Supports L5.5+
+Supports L5.5+ (test)
 
 This package offers you a way of adding a correlation id output on Laravel Logger based on a sent Header.
 Inspired by [this repo](https://github.com/proemergotech/correlate-php-laravel) it has:
